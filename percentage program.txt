@@ -1,0 +1,33 @@
+package com.company;
+import java.util.Scanner;
+
+class Scratch {
+    public static void main(String[] args) {
+        System.out.println("Enter the no of five subjects");
+        Scanner ms = new Scanner(System.in);
+        System.out.print("english");
+        int e = ms.nextInt();
+        System.out.print("Accountancy");
+        int a = ms.nextInt();
+        System.out.print("Business studies");
+        int b = ms.nextInt();
+        System.out.print("IP");
+        int ip = ms.nextInt();
+        System.out.print("Economics");
+        int eco = ms.nextInt();
+        int total = e+a+b+ip+eco;
+        System.out.print("the sum of five subject is :");
+        System.out.println(total);
+        int per = total/5;
+        System.out.print("Pecentage of the five subject is :");
+        System.out.println(per);
+        System.out.print("Status  :" );
+        if (per<33) {
+            System.out.println("Fail");
+        }
+            else {
+            System.out.println("pass");
+        }
+            }
+        }
+
